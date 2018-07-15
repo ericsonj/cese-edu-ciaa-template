@@ -1,0 +1,3 @@
+#!/bin/sh
+
+find . -name "*.h" | grep -i "^./libs/" | awk '{ FS="/" }{ NF--; print }' | awk 'NF {print "-I"$0}' | sed -e "s/ /\\//g" | sort | uniq

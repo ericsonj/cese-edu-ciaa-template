@@ -1,0 +1,12 @@
+-I./libs/elm-chan-FatFs/fatfs_ssp/inc
+-I./libs/elm-chan-FatFs/fatfs_usb/inc
+-I./libs/freertos/include
+-I./libs/freertos/include/private
+-I./libs/freertos/source/portable/ARM_CM3
+-I./libs/freertos/source/portable/ARM_CM4F
+-I./libs/sapi/sapi_v0.5.1/deprecated
+-I./libs/sapi/sapi_v0.5.1/inc
+-I./libs/vendor_libs/lpc_board_ciaa_edu_4337/inc
+-I./libs/vendor_libs/lpc_chip_43xx/inc
+-I./libs/vendor_libs/lpc_chip_43xx/inc/config_43xx
+-I./libs/vendor_libs/lpc_chip_43xx/inc/usbd_rom
