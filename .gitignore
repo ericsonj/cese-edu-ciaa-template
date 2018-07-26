@@ -52,9 +52,7 @@ Mkfile.old
 dkms.conf
 
 out/
-
-# Projects
-myprojects/
+GPATH
 GRTAGS
 GTAGS
-GPATH
+myprojects/
