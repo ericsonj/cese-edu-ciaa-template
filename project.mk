@@ -2,6 +2,10 @@
 # Select a project to compile, or comment and uncomment an example
 #==============================================================================
 
+# ---------- My Projects -----------------------------------------------
+PROJECT_PATH = myprojects
+PROJECT_NAME = hm10_blink
+
 # ---------- Project path ----------------------------------------------
 # Project path 
 # (relative to this folder, leave void if the project is in this folder)
@@ -17,5 +21,5 @@
 #PROJECT_PATH = ../examples/c/sapi/bare_metal
 #PROJECT_NAME = sapi_basic_example
 
-PROJECT_PATH = examples/c/sapi/bare_metal/i2c/IMUs
-PROJECT_NAME = mpu9250
+#PROJECT_PATH = examples/c/sapi/bare_metal/bluetooth
+#PROJECT_NAME = hm10_uart_bridge
