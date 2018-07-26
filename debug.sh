@@ -38,7 +38,7 @@ echo $APP_PID
 # run google-chrome app
 google-chrome --app=http://127.0.0.1:5000 &
 # run gdbgui
-gdbgui $1 -x .gdb_cmd -g /ciaa/gcc-arm-none-eabi-4_9-2015q1/bin/arm-none-eabi-gdb -n
+gdbgui $1 --gdb-args="-x .gdb_cmd" -g /ciaa/gcc-arm-none-eabi-4_9-2015q1/bin/arm-none-eabi-gdb -n
 #arm-none-eabi-gdb --batch --command=run.gdb $1
 #nemiver --remote=localhost:3333 --gdb-binary=/ciaa/gcc-arm-none-eabi-4_9-2015q1/bin/arm-none-eabi-gdb $1
 kill -SIGINT $APP_PID
