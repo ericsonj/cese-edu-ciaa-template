@@ -4,7 +4,7 @@
 
 # ---------- My Projects -----------------------------------------------
 PROJECT_PATH = myprojects
-PROJECT_NAME = hm10_blink
+PROJECT_NAME = esp8266_usp
 
 # ---------- Project path ----------------------------------------------
 # Project path 
@@ -38,6 +38,6 @@ PROJECT_NAME = hm10_blink
 #PROJECT_PATH = examples/c/sapi/bare_metal/i2c/IMUs
 #PROJECT_NAME = mpu9250
 
-PROJECT_PATH = examples/c/sapi/bare_metal/usb
-PROJECT_NAME = usb_device_01_hid_keyboard
+#PROJECT_PATH = examples/c/sapi/bare_metal/usb
+#PROJECT_NAME = usb_device_01_hid_keyboard
 #PROJECT_NAME = usb_device_02_cdc_virtualSerialPort
