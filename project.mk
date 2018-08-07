@@ -4,7 +4,10 @@
 
 # ---------- My Projects -----------------------------------------------
 PROJECT_PATH = myprojects
-PROJECT_NAME = esp8266_usp
+#PROJECT_NAME = rtos_esp8266
+#PROJECT_NAME = esp8266_usp
+#PROJECT_NAME = fatfs_g7xx
+PROJECT_NAME = rtos_queue
 
 # ---------- Project path ----------------------------------------------
 # Project path 
