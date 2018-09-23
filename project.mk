@@ -3,11 +3,13 @@
 #==============================================================================
 
 # ---------- My Projects -----------------------------------------------
+
 PROJECT_PATH = myprojects
 #PROJECT_NAME = rtos_esp8266
 #PROJECT_NAME = esp8266_usp
 #PROJECT_NAME = fatfs_g7xx
-PROJECT_NAME = rtos_queue
+#PROJECT_NAME = rtos2_qmpool
+PROJECT_NAME = rtos2_tp1
 
 # ---------- Project path ----------------------------------------------
 # Project path 
@@ -23,8 +25,6 @@ PROJECT_NAME = rtos_queue
 # ---------- Example of path outside this file folder ------------------
 #PROJECT_PATH = ../examples/c/sapi/bare_metal
 #PROJECT_NAME = sapi_basic_example
-
-
 
 #PROJECT_PATH = examples/c/lpc_open/bare_metal
 #PROJECT_NAME = usb_msc_host
@@ -44,3 +44,7 @@ PROJECT_NAME = rtos_queue
 #PROJECT_PATH = examples/c/sapi/bare_metal/usb
 #PROJECT_NAME = usb_device_01_hid_keyboard
 #PROJECT_NAME = usb_device_02_cdc_virtualSerialPort
+
+#PROJECT_PATH = /MYPROJECTS/ARM/cese-edu-ciaa-template/examples/c/sapi/bare_metal/wifi_esp01_esp8266
+#PROJECT_NAME = 01_uart_bridge
+#PROJECT_NAME = 03_thingspeak
