@@ -1,3 +1,5 @@
+[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause) [![Build Status](https://travis-ci.com/epernia/cese-edu-ciaa-template.svg?branch=master)](https://travis-ci.com/epernia/cese-edu-ciaa-template)
+
 # CESE, FI-UBA project template for EDU-CIAA-NXP
 
 CESE, FI-UBA: http://laboratorios.fi.uba.ar/lse/cursos.html
@@ -13,7 +15,7 @@ CESE, FI-UBA: http://laboratorios.fi.uba.ar/lse/cursos.html
 - LPCOpen v3.01
 - sAPI r0.5.0.
 - FreeRTOS Kernel V10.0.1
-- Elm-Chan FatFS (duplicated for SSP & USB).
+- Elm-Chan FatFS. Support for SD Cards (SSP) & Pendrives (USB MSD).
 
 ## Supported boards
 

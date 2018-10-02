@@ -19,8 +19,11 @@ PROJECT_NAME = rtos2_tp1
 #PROJECT_NAME = app
 
 # ---------- Example of path inside this file folder -------------------
-#PROJECT_PATH = examples/c/sapi/bare_metal
-#PROJECT_NAME = sapi_basic_example
+# Project path
+#(relative to this folder, leave void if the project is in this folder)
+#PROJECT_PATH = examples/c/sapi/bare_metal/gpio
+# Project name
+#PROJECT_NAME = gpio_blinky
 
 # ---------- Example of path outside this file folder ------------------
 #PROJECT_PATH = ../examples/c/sapi/bare_metal
