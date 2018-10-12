@@ -33,7 +33,7 @@ fi
 
 make
 make download
-openocd -f scripts/openocd.cfg & export APP_PID=$!
+openocd -f scripts/openocd/lpc4337.cfg & export APP_PID=$!
 echo $APP_PID
 # run google-chrome app
 google-chrome --app=http://127.0.0.1:5000 &

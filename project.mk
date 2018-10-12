@@ -4,12 +4,12 @@
 
 # ---------- My Projects -----------------------------------------------
 
-PROJECT_PATH = myprojects
+#PROJECT_PATH = myprojects
 #PROJECT_NAME = rtos_esp8266
 #PROJECT_NAME = esp8266_usp
 #PROJECT_NAME = fatfs_g7xx
 #PROJECT_NAME = rtos2_qmpool
-PROJECT_NAME = rtos2_tp1
+#PROJECT_NAME = rtos2_tp1
 
 # ---------- Project path ----------------------------------------------
 # Project path 
@@ -26,8 +26,8 @@ PROJECT_NAME = rtos2_tp1
 #PROJECT_NAME = gpio_blinky
 
 # ---------- Example of path outside this file folder ------------------
-#PROJECT_PATH = ../examples/c/sapi/bare_metal
-#PROJECT_NAME = sapi_basic_example
+PROJECT_PATH = ../examples/c/sapi/bare_metal
+PROJECT_NAME = sapi_basic_example
 
 #PROJECT_PATH = examples/c/lpc_open/bare_metal
 #PROJECT_NAME = usb_msc_host
